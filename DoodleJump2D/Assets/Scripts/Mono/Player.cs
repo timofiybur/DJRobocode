@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 public class Player : MonoBehaviour
 {
     [Header("Components:")]
@@ -16,6 +17,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        rb = new Rigidbody2D();
         screenWidth = Camera.main.orthographicSize * Camera.main.aspect;
     }
 

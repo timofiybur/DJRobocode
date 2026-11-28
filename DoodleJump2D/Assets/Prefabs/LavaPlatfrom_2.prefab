@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6320056656825551839}
   - component: {fileID: 2499406418698151186}
   - component: {fileID: 7691010684973749638}
+  - component: {fileID: 695009906275600667}
   m_Layer: 0
   m_Name: LavaPlatfrom_2
   m_TagString: Untagged
@@ -186,3 +187,16 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &695009906275600667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6058970767340815413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3588c1d1a1816e47be948bc105e6bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platform
+  jumpForce: 10
